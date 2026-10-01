@@ -1,4 +1,4 @@
 {
-    "osztalyok" : [],
-    "diakok" : []
+    "osztalyok" : ["13.C","12.C","11.C","10.C"],
+    "diakok" : ["Nagy Pista;nagy.pista@school.com;Informatika","Kis Armand;kis.armand@school.com"]
 }
