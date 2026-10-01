@@ -1,0 +1,2 @@
+INSERT INTO diakok (nev, szak, evfolyam)
+VALUES ("Nagy István", "Informatika", 12)
