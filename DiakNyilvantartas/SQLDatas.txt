@@ -1,2 +1,11 @@
-INSERT INTO diakok (nev, szak, evfolyam)
-VALUES ("Nagy István", "Informatika", 12)
+INSERT INTO osztalyok (nev, szak, evfolyam)
+VALUES ("13.C", "Informatika", 13);
+
+INSERT INTO osztalyok (nev, szak, evfolyam)
+VALUES ("14.F", "Kisegítő", 14);
+
+INSERT INTO diakok (nev, email, osztalyID)
+VALUES ("Nagy Pista", "apps@apps.hu", 0);
+
+INSERT INTO diakok (nev, email, osztalyID)
+VALUES ("Kiss Pista", "apps@apps.hu", 1);

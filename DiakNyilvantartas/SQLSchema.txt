@@ -2,17 +2,17 @@ CREATE DATABASE IF NOT EXISTS diakok
 CHARSET UTF8
 COLLATE utf8_hungarian_Ci;
 
-CREATE TABLE IF NOT EXISTS diakok(
-id int(11) NOT NULL PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS osztalyok(
+id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 nev varchar(60) NOT NULL,
 szak varchar(60) NOT NULL,
 evfolyam int(11) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS diakok(
-id int(11) NOT NULL PRIMARY KEY,
+id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 nev varchar(60) NOT NULL,
 email varchar(60) NOT NULL,
-osztaly_id int(11) NOT NULL
-FOREIGN KEY (osztaly_id) REFERENCES diakok(id)
+osztaly_id int(11) NOT NULL,
+FOREIGN KEY (osztaly_id) REFERENCES osztalyok(id)
 );
